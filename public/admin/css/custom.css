@@ -1,0 +1,104 @@
+body[dir="rtl"] , [dir="rtl"] .card .card-title , 
+[dir="rtl"] .btn , [dir="rtl"] .sidebar ,
+[dir="rtl"] .card .card-description ,
+[dir="rtl"] table,
+[dir="rtl"] .table thead th,
+[dir="rtl"] .font-weight-medium,
+[dir="rtl"] .quick_action_reservation ,
+[dir="rtl"] .quick_action,
+[dir="rtl"] .browse,
+[dir="rtl"] .mange_links
+
+{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+[dir="rtl"] .side_icon {
+      margin-left: unset !important;
+      margin-right: auto !important;
+}
+[dir="rtl"] .lang {
+   margin-left: .25rem !important;
+}
+[dir="rtl"] .day_align {
+   text-align: right !important;
+}
+[dir="rtl"] .days_select {
+   background-position: left 8px center;
+}
+[dir="rtl"] .mange_account {
+   text-align: right;
+  font-family: 'Cairo', sans-serif !important;
+}
+[dir="rtl"] .dropdown-menu-right {
+      right: auto;
+      left: 0;
+}
+[dir="rtl"] .navbar-menu-wrapper {
+     justify-content: space-between;
+}
+[dir="rtl"] .navbar-nav-right{
+      margin-left: 0 !important;
+}
+[dir="rtl"] .food_body{
+      text-align: right !important;
+}
+[dir="rtl"] .food_btn_add{
+      text-align: right !important;
+}
+.swal2-confirm {
+    opacity: 1 !important;
+    color: white !important;
+    background-color: #d33;
+}
+
+.swal2-cancel {
+    opacity: 1 !important;
+    color: white !important;
+    background-color: #3085d6;
+}
+#settingsSubmenu .nav-link {
+  transition: all 0.3s ease;
+  padding-left: 1.5rem;
+  font-size: 14px;
+  color: #666;
+}
+
+#settingsSubmenu .nav-link:hover {
+  color: #000;
+}
+[dir="rtl"] .setting_icon {
+      margin-left: .5rem !important;
+      margin-right: unset !important;
+}
+[dir="rtl"] .quick_action_reservation {
+      margin-left: 0 !important;
+}
+[dir="rtl"] .quick_action_links {
+      justify-content: space-between;
+}
+
+.select-rtl {
+    direction: rtl;
+    text-align: right;
+}
+.select-rtl option {
+    direction: rtl;
+}
+.select-rtl {
+    direction: rtl;
+    text-align: right;
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="10"><polygon points="0,0 14,0 7,10" style="fill:black;"/></svg>') no-repeat left center;
+    background-size: 10px;
+    padding-left: 25px; 
+}
+
+.bg-amber-500 {
+    background-color: rgb(238, 120, 120); 
+}
+
+.quick-action-toolbar .card .card-header {
+    background-color: rgb(238, 120, 120) !important;
+    background-image: linear-gradient(270deg, #f28b82, #e53935); 
+}

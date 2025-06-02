@@ -1,0 +1,52 @@
+
+body[dir="rtl"] ,.welcome_p {
+    font-family: 'Cairo', sans-serif !important;
+}
+[dir="rtl"] .font-cursive-merie {
+    font-family: 'Cairo', sans-serif !important;
+}
+[dir="rtl"] .font-sans-monts {
+    font-family: 'Cairo', sans-serif !important;
+}
+[dir="rtl"] .font-sans-lato {
+    font-family: 'Cairo', sans-serif !important;
+}
+[dir="rtl"] .food-sm\:text-left {
+    text-align: right;
+}
+[dir="rtl"] .book_icon {
+    right: 0;
+    left: unset;
+}
+[dir="rtl"] .book_input {
+      padding-right: 2rem;
+      padding-left: unset;
+}
+[dir="rtl"] .contact {
+      padding-right: .75rem;
+      
+}
+[dir="rtl"] .footer_icon {
+      padding-left: .75rem;
+}
+
+.text-amber-400 {
+    color: #ff7e7e;
+}
+.bg-amber-400{
+    background-color: #ff7e7e;
+    color: #ff7e7e;
+}
+/* .test:hover{
+      background-color: #ff7e7e;
+    color: #ff7e7e;
+} */
+ /* اللون الأساسي */
+.text-customRed {
+    color: #ff7e7e;
+}
+
+/* خلفية عند الـ hover */
+.bg-customRed {
+    background-color: #ff7e7e;
+}
